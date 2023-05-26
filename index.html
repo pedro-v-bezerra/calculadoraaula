@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br" dir="ltr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=100px, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calculadora</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="estilo.css">
-    <script src="calculadora.js" ></script>    
+    <script src="calculadora.js"></script>
 </head>
+
 <body>
     <div id="calculadora">
         <h1 class="logo">CASIO</h1>
@@ -28,7 +30,7 @@
                 <button class="botaoDigito" value="5">5</button>
                 <button class="botaoDigito" value="6">6</button>
                 <button class="botaoAcao" value="+">+</button>
-                
+
             </div>
             <div>
                 <button class="botaoDigito" value="1">1</button>
@@ -37,14 +39,14 @@
                 <button class="botaoAcao" value="-">-</button>
             </div>
             <div>
-                <button class="botaoAcao" value="/">/</button> 
+                <button class="botaoAcao" value="/">/</button>
                 <button class="botaoDigito" value="0">0</button>
-                
+
                 <button class="botaoAcao" value="x">X</button>
-                <button id="botaoIgual" class="botaoAcao igual" value="=">=</button>
+                <button id="botaoIgual" class="botaoAcao igual" disabled value="=">=</button>
                 <!-- <button id="botaoIgual" class="botaoAcao igual" disabled value="=">=</button> -->
             </div>
-            
+
         </div>
     </div>
     <script>
@@ -67,7 +69,8 @@
         botoesAcoes[3].addEventListener('click', botaoAcaoClick);
         botoesAcoes[4].addEventListener('click', botaoAcaoClick);
         botoesAcoes[5].addEventListener('click', botaoAcaoClick);
-    
+
     </script>
 </body>
+
 </html>
